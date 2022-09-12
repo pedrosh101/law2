@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: BAS;
+    src: url(./fonts/BaskervilleMTStd-Regular.otf)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: NHG;
+    src: url(./fonts/NHaasGroteskTXPro-55Rg.ttf)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+:root {
+    --clr1: #fff;
+    --clr2: #143862;
+    --clr3: rgb(131, 91, 91);
+    --clr4: #76549A;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+    cursor: default;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+    overflow-x: hidden;
+}
+
+h1, p {
+    color: var(--clr1);
+}
+
+ul{
+    list-style: none;
+}
+
+h1 {
+    font-family: BAS;
+    font-size: 3.5em;
+    font-weight: 100;
+    line-height: 1;
+}
+
+h5 {
+    font-family: NHG;
+}
+
+p {
+    font-family: NHG;
+    font-size: 1.2em;
+    letter-spacing: .8px;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
 }

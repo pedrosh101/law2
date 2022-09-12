@@ -1,0 +1,46 @@
+
+.slideContent{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.userImg{
+    display: flex;
+    filter:grayscale(40%);
+}
+
+.userPhoto{
+    height: 37em;
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+
+.text{
+    position: absolute;
+    color: var(--clr1);
+    display: flex;
+    flex-direction: column;
+    margin: 22em 2em;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 8px;
+}
+
+.userName{
+    font-size: 2.8em;
+    margin-bottom: 6px;
+}
+
+.userText{
+    font-size: 1.5em;
+    max-width: 37vw;
+}
+
+.line {
+    height: .5px;
+    width: 25vw;
+    margin-bottom: 6px;
+    background: rgb(255, 255, 255);
+}

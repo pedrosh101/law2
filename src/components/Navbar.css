@@ -1,0 +1,121 @@
+.navbar {
+    background-color: var(--clr1);
+    padding: .6em;
+}
+
+.navbarContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.NavbarItems {
+    position: relative;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    list-style: none;
+    top: 5em;
+    right: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 999 !important;
+}
+
+.navMenu.active {
+    background: var(--clr1);
+    right: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.logoContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarLogo img {
+    cursor: pointer;
+    width: 11em;
+}
+
+
+.navLinks {
+    padding: 2rem 8rem;
+    width: 100%;
+    display: table;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--clr2);
+
+}
+
+.navLinks:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
+}
+
+
+.fa-bars {
+    color: var(--clr2);
+}
+
+.fa-times {
+    color: var(--clr2);
+    font-size: 2rem;
+}
+
+.menuIcon {
+    display: block;
+    position: absolute;
+    top: 2;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+    .navLinks {
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        font-size: 1.3rem;
+    }
+
+    .navLinks:hover {
+        background-color: #fff;
+        color: #242424;
+        border-radius: 0;
+    }
+
+    .navLinks-mobile {
+        display: block;
+        text-align: center;
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        text-decoration: none;
+        font-size: 1.5rem;
+        background-color: transparent;
+        color: #fff;
+        padding: 14px 20px;
+        border: 1px solid #fff;
+        transition: all 0.3s ease-out;
+    }
+
+    .navLinks-mobile:hover {
+        background: #fff;
+        color: #242424;
+        transition: 250ms;
+    }
+
+}
