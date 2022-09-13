@@ -58,8 +58,8 @@
 }
 
 .navLinks:hover {
-    background-color: #fff;
-    color: #242424;
+    background-color: var(--clr2);
+    color: var(--clr1);
     border-radius: 0;
 }
 
@@ -82,6 +82,7 @@
     font-size: 1.8rem;
     cursor: pointer;
 }
+
 
 @media screen and (max-width: 960px) {
     .navLinks {

@@ -1,6 +1,35 @@
-.hero{
+
+
+.hero h1, p{
+    color: var(--clr2);
+}
+
+.hero h1{
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.aboutContainer {
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgText{
+    padding: 4em;
+    gap: 4em;
+    display: flex;
+    text-align: justify;
+}
+
+.imgText img{
+    max-height: 25em;
+}
+
+.workContainer{
     background-image: url(/public/img/herobg.jpg);
     background-size: cover;
     min-height: 100vh;
-
 }

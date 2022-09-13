@@ -1,0 +1,34 @@
+.cardsContainer{
+    padding: 4em 12em;
+}
+
+.allCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.cardsTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px;
+    gap: 11px;
+}
+
+.cardsTitle h5{
+    font-size: 1em;
+}
+
+.card{
+    outline: 1px solid black;
+    background-color: var(--clr1);
+    color: var(--clr2);
+    padding: .8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover{
+    scale: 1.03;
+}

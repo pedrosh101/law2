@@ -22,10 +22,6 @@
     padding: 0;
 }
 
-a{
-    cursor: default;
-}
-
 body {
     overflow-x: hidden;
 }
@@ -36,10 +32,11 @@ h1, p {
 
 ul{
     list-style: none;
+    font-family: NHG;
 }
 
 h1 {
-    font-family: BAS;
+    font-family: NHG;
     font-size: 3.5em;
     font-weight: 100;
     line-height: 1;
@@ -50,7 +47,7 @@ h5 {
 }
 
 p {
-    font-family: NHG;
+    font-family: BAS;
     font-size: 1.2em;
     letter-spacing: .8px;
     line-height: 1.4;
@@ -58,4 +55,27 @@ p {
 
 a {
     text-decoration: none;
+}
+
+button {
+	background-color:transparent;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color: var(--clr2);
+	font-size:15px;
+	font-weight:bold;
+	padding:17px 51px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-top: 20px;
+}
+
+button:hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+button:active {
+	position:relative;
+	top:1px;
 }
