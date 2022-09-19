@@ -1,6 +1,7 @@
 import React from "react";
 import Slide from "./Slide";
 import Cards from "./Cards";
+import Map from "./Map";
 import "./Hero.css";
 
 function Hero() {
@@ -34,6 +35,7 @@ function Hero() {
         <div className="workContainer">
           <Cards />
         </div>
+        <Map />
       </section>
     </>
   );
