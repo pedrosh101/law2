@@ -14,21 +14,25 @@
 
 .navMenu {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     position: absolute;
     list-style: none;
-    top: 5em;
+    top: 6em;
     right: -100%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 999 !important;
 }
 
+
+.navbar ul{
+    left: 0;
+}
+
 .navMenu.active {
-    background: var(--clr1);
+
+    background: var(--clr3);
     right: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -48,7 +52,7 @@
 
 
 .navLinks {
-    padding: 2rem 8rem;
+    padding: 2rem 20rem 2rem 8rem;
     width: 100%;
     display: table;
     text-decoration: none;

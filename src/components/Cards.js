@@ -6,17 +6,20 @@ function Cards() {
     {
       id: 1,
       title: "DIREITO EMPRESARIAL, ECONÔMICO E SUCESSÃO EMPRESARIAL",
-      testimonial: "Advogado - OAB/PS 19.590",
+      testimonial:
+        "A sucessão empresarial é um procedimento de passagem de poder e capital de uma empresa para outra empresa que, continuará executando as atividades da empresa anterior mesmo que com outra razão social.",
     },
     {
       id: 2,
       title: "DIREITO IMOBILIÁRIO",
-      testimonial: "O Direito Imobiliário consegue assegurar o direito de posse e propriedade. Tanto na esfera extrajudicial, quanto no contencioso, nosso escritório está preparado para garantir o assessoramento, ajuizamento e defesa de demandas relacionadas à locação, compra e venda de imóveis, usucapião, relações condominiais, incorporação imobiliária, direitos de vizinhança e regularização urbana e fundiária.",
+      testimonial:
+        "O direito imobiliário é um ramo do direito privado que lida, como o nome já aponta, que estuda e lida com as relações jurídicas e de direito que envolvam a posse, compra, venda, doação, sucessão, troca e propriedade de bens imóveis, inclusive a incorporação imobiliária.",
     },
     {
       id: 3,
       title: "DIREITO CIVIL",
-      testimonial: "Advogado - OAB/PS 19.000",
+      testimonial:
+        "O Direito Civil, dentro do ordenamento jurídico brasileiro, é o ramo do direito que lida com as relações jurídicas, como os direitos e as obrigações, de pessoas físicas e jurídicas dentro da esfera civil.",
     },
     {
       id: 4,
@@ -27,22 +30,14 @@ function Cards() {
     {
       id: 5,
       title: "DIREITO TRABALHISTA E PREVIDENCIÁRIO",
-      testimonial: "Advogado - OAB/PS 19.590",
+      testimonial:
+        "Ramo do direito privado que é responsável por regular a relação jurídica entre trabalhadores e empregadores, baseado nos princípios e leis trabalhistas. O direito do trabalho é um dos ramos do direito privado mais importantes para a sociedade.",
     },
     {
       id: 6,
       title: "DIREITO DE FAMÍLIAS E SUCESSÕES",
-      testimonial: "No âmbito familiar, por vezes, é necessário compreender as questões pessoais de cada cliente, pois estamos lidando justamente com as relações mais próximas das pessoas. Com essa filosofia, atuamos no assessoramento judicial e extrajudicial de questões relativas ao Direito das Famílias, incluindo ainda o assessoramento para questões relativas à sucessão familiar.",
-    },
-    {
-      id: 7,
-      title: "DIREITO BANCÁRIO E FINANCEIRO",
-      testimonial: "Advogado - OAB/PS 19.000",
-    },
-    {
-      id: 8,
-      title: "DIREITO DO CONSUMIDOR",
-      testimonial: "Advogado - OAB/PS 25.190",
+      testimonial:
+        "As varas da Família e Sucessões são responsáveis por processar e julgar litígios relacionados a temas como inventários, testamentos, separação judicial, divórcio, anulação de casamento, investigação de paternidade, ação de alimentos, entre outros.",
     },
   ];
 

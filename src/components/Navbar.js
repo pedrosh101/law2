@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Map from "./Map"
 import "./Navbar.css";
 
 function Navbar() {
@@ -26,28 +27,31 @@ function Navbar() {
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <div className={click ? "navMenu active" : "navMenu"}>
-          <ul>
-            <li>
-              <Link to="/" className="navLinks" onClick={closeMobileMenu}>
-                INÍCIO
-              </Link>
-            </li>
-            <li>
-              <Link to="/" className="navLinks" onClick={closeMobileMenu}>
-                ESCRITÓRIO
-              </Link>
-            </li>
-            <li>
-              <Link to="/" className="navLinks" onClick={closeMobileMenu}>
-                SOBRE NÓS
-              </Link>
-            </li>
-            <li>
-              <Link to="/" className="navLinks" onClick={closeMobileMenu}>
-                CONTATO
-              </Link>
-            </li>
-          </ul>
+            <ul>
+              <li>
+                <Link to="/" className="navLinks" onClick={closeMobileMenu}>
+                  INÍCIO
+                </Link>
+              </li>
+              <li>
+                <Link to="/" className="navLinks" onClick={closeMobileMenu}>
+                  ESCRITÓRIO
+                </Link>
+              </li>
+              <li>
+                <Link to="/" className="navLinks" onClick={closeMobileMenu}>
+                  SOBRE NÓS
+                </Link>
+              </li>
+              <li>
+                <Link to="/" className="navLinks" onClick={closeMobileMenu}>
+                  CONTATO
+                </Link>
+              </li>
+            </ul>
+            <div className="mapNav">
+              <Map />
+            </div>
           </div>
         </div>
       </nav>
