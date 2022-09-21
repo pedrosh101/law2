@@ -1,5 +1,5 @@
 .cardsContainer{
-    padding: 4em 12em;
+    padding: 4em 14em 6em 14em;
 }
 
 .allCards{
@@ -24,11 +24,25 @@
     outline: 1px solid black;
     background-color: var(--clr3);
     color: var(--clr2);
-    padding: .8em;
+    padding: 2em;
+    text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
+.cardTitle{
+    font-family: NHG;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+.cardTxt{
+    font-family: BAS;
+    font-size: 1.05rem;
+}
+
+
 .card:hover{
-    scale: 1.03;
+    scale: 1.01;
 }

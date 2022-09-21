@@ -29,14 +29,13 @@ function Hero() {
 
   useEffect(() => {
     const q = gsap.utils.selector(imgRef);
-    q(".textBtn").forEach((imgframe) => {
-      gsap.fromTo(
-        imgframe,
-        { opacity: 1 },
+    q(".textBtn").forEach((txt) => {
+      gsap.to(
+        txt,
         {
           opacity: 1,
           duration: 3,
-          scrollTrigger: { trigger: imgframe, start: 'top 40%', pin: true, pinSpacing: false  },
+          scrollTrigger: { trigger: txt, scrub: 0.8, start: 'top 40%', end: "+=400", pin: true, pinSpacing: false  },
         }
       );
     });
@@ -59,8 +58,7 @@ function Hero() {
                 e assessoria, aliando recursos de tecnologia e logística nas
                 suas rotinas de trabalho, propondo assistência, representação e
                 orientação jurídica para a defesa dos direitos e interesses dos
-                clientes, nos mais variados ramos do direito e dos negócios. As
-                atividades da banca iniciaram em 2004.
+                clientes, nos mais variados ramos do direito e dos negócios.
               </p>
               <button>Fale Conosco</button>
             </div>

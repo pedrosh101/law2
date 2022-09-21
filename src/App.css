@@ -1,12 +1,13 @@
 @font-face {
+    font-family: NHG;
+    src: url(./fonts/NHaasGroteskTXPro-55Rg.ttf)
+}
+
+@font-face {
     font-family: BAS;
     src: url(./fonts/BaskervilleMTStd-Regular.otf)
 }
 
-@font-face {
-    font-family: NHG;
-    src: url(./fonts/NHaasGroteskTXPro-55Rg.ttf)
-}
 
 
 :root {
@@ -30,13 +31,16 @@ h1, p {
     color: var(--clr1);
 }
 
-ul{
+ul {
     list-style: none;
     font-family: NHG;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
     font-family: NHG;
+}
+
+h1 {
     font-size: 3.5em;
     font-weight: 100;
     line-height: 1;
@@ -46,9 +50,10 @@ h5 {
     font-family: NHG;
 }
 
+
 p {
     font-family: BAS;
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: .8px;
     line-height: 1.4;
 }
@@ -58,24 +63,24 @@ a {
 }
 
 button {
-	background-color:transparent;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	cursor:pointer;
-	color: var(--clr2);
-	font-size:15px;
-	font-weight:bold;
-	padding:17px 51px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+    background-color: transparent;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: var(--clr2);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 17px 51px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
     margin-top: 20px;
 }
 
 button:hover {
-	background-color: var(--clr3);
+    background-color: var(--clr3);
 }
 
 button:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }

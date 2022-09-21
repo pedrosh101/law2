@@ -29,7 +29,7 @@ function Cards() {
     },
     {
       id: 5,
-      title: "DIREITO TRABALHISTA E PREVIDENCIÁRIO",
+      title: "DIREITO TRABALHISTA",
       testimonial:
         "Ramo do direito privado que é responsável por regular a relação jurídica entre trabalhadores e empregadores, baseado nos princípios e leis trabalhistas. O direito do trabalho é um dos ramos do direito privado mais importantes para a sociedade.",
     },
@@ -52,8 +52,8 @@ function Cards() {
           <div className="allCards">
             {card.map((info) => (
               <div className="card">
-                <div>{info.title}</div>
-                {info.testimonial}
+                <div className="cardTitle">{info.title}</div>
+                <div className="cardTxt">{info.testimonial}</div>
               </div>
             ))}
           </div>

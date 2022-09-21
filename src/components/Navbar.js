@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Map from "./Map"
+import Map from "./Map";
 import "./Navbar.css";
 
 function Navbar() {
@@ -48,9 +48,50 @@ function Navbar() {
                   CONTATO
                 </Link>
               </li>
+
+              <div className="blueBlock"></div>
             </ul>
             <div className="mapNav">
               <Map />
+            </div>
+            <div className="contatoNav">
+              <div className="endereco">
+                <h1 className="endereco-heading">Endereço</h1>
+                <p>Rua Durval Rocha, 192</p>
+                <p>Vila Paraíba - Guaratinguetá-SP</p>
+                <div className="social-media">
+                  <div className="social-icons">
+                    <Link
+                      className="social-icon-link facebook"
+                      to="/"
+                      target="_blank"
+                      aria-label="Facebook"
+                    >
+                      <i className="fab fa-facebook-f" />
+                    </Link>
+
+                    <a
+                      href="https://www.instagram.com/beautyspavp/"
+                      className="social-icon-link instagram"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="Instagram"
+                    >
+                      <i className="fab fa-instagram" />
+                    </a>
+
+                    <a
+                      href="https://wa.me/5512981622637"
+                      className="social-icon-link whatsapp"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="Whatsapp"
+                    >
+                      <i className="fab fa-whatsapp" />
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
