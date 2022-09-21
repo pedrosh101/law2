@@ -37,9 +37,15 @@
 }
 
 
-@media screen and (max-width: 820px) {
-    .footerContainer {
+@media all and (max-width: 50em) {
+    .footerInfo{
+        padding: 2em;
+        gap: 2em;
         flex-direction: column;
-        text-align: center;
+    }
+
+    .row{
+        line-height: 2em;
+
     }
 }

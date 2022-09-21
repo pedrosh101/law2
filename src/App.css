@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: BAS;
-    src: url(./fonts/BaskervilleMTStd-Regular.otf)
+    font-family: AVN;
+    src: url(./fonts/AvenirNextLTPro-Regular.otf)
 }
 
 
@@ -52,7 +52,7 @@ h5 {
 
 
 p {
-    font-family: BAS;
+    font-family: AVN;
     font-size: 1em;
     letter-spacing: .8px;
     line-height: 1.4;

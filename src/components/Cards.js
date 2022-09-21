@@ -5,7 +5,7 @@ function Cards() {
   const card = [
     {
       id: 1,
-      title: "DIREITO EMPRESARIAL, ECONÔMICO E SUCESSÃO EMPRESARIAL",
+      title: "DIREITO EMPRESARIAL E ECONÔMICO",
       testimonial:
         "A sucessão empresarial é um procedimento de passagem de poder e capital de uma empresa para outra empresa que, continuará executando as atividades da empresa anterior mesmo que com outra razão social.",
     },
@@ -50,8 +50,8 @@ function Cards() {
             <h5>Como podemos ajudar?</h5>
           </div>
           <div className="allCards">
-            {card.map((info) => (
-              <div className="card">
+            {card.map((info, i) => (
+              <div className="card" key={i}>
                 <div className="cardTitle">{info.title}</div>
                 <div className="cardTxt">{info.testimonial}</div>
               </div>

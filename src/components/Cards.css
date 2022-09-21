@@ -12,20 +12,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 22px;
+    padding: 25px 0 45px 0;
     gap: 11px;
 }
 
 .cardsTitle h5{
     font-size: 1em;
+    font-family: AVN;
 }
 
 .card{
     outline: 1px solid black;
     background-color: var(--clr3);
     color: var(--clr2);
-    padding: 2em;
+    padding: 3em 5em;
     text-align: center;
+    cursor: default;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,11 +40,21 @@
 }
 
 .cardTxt{
-    font-family: BAS;
+    font-family: AVN;
     font-size: 1.05rem;
 }
 
-
 .card:hover{
-    scale: 1.01;
+    background-color: var(--clr1);
+}
+
+@media all and (max-width: 50em){
+    .cardsContainer{
+        padding: 2em;
+    }
+
+    .allCards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

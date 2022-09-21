@@ -61,8 +61,6 @@
     
 }
 
-
-
 .bannerText h1, .bannerText p{
     max-width: 60%;
     color: var(--clr1);
@@ -70,5 +68,41 @@
 
 .bannerText p{
     margin-top: 35px;
+}
 
+@media all and (max-width: 50em){
+    .aboutContainer {
+        padding: 4em 2em;
+    }
+
+    .imgText, .imgText2{
+        flex-direction: column;
+        padding: 2em;
+        gap: 0;
+    }
+
+    .textBtn{
+        padding: 2em;
+    }
+
+    .imgText img {
+        max-height: 19em;
+        padding: 12px;
+    }
+    
+    .imgText2 img {
+        max-height: 19em;
+    }
+
+    .bannerContainer {
+        padding: 2em;
+    }
+
+    .bannerText h1, .bannerText p{
+        max-width: 80%;
+    }
+    
+    .bannerText p{
+        margin-top: 15px;
+    }
 }
