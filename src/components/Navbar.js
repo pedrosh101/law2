@@ -48,8 +48,6 @@ function Navbar() {
                   CONTATO
                 </Link>
               </li>
-
-              <div className="blueBlock"></div>
             </ul>
             <div className="mapNav">
               <Map />

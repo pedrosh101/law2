@@ -13,7 +13,7 @@
 :root {
     --clr1: #fff;
     --clr2: #143862;
-    --clr3: rgb(207, 225, 247);
+    --clr3: rgb(189, 204, 223);
     --clr4: #76549A;
 }
 
@@ -23,9 +23,10 @@
     padding: 0;
 }
 
-body {
+html, body {
     overflow-x: hidden;
 }
+
 
 h1, p {
     color: var(--clr1);

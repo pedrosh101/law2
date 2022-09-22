@@ -23,7 +23,7 @@
 
 .card{
     outline: 1px solid black;
-    background-color: var(--clr3);
+    background-color: var(--clr1);
     color: var(--clr2);
     padding: 3em 5em;
     text-align: center;
@@ -45,16 +45,22 @@
 }
 
 .card:hover{
-    background-color: var(--clr1);
+    background-color: var(--clr3);
 }
 
 @media all and (max-width: 50em){
     .cardsContainer{
-        padding: 2em;
+        padding: 1.5em;
     }
 
+    
     .allCards{
+        gap: 1.5em;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card{
+        padding: 1em 2em;
     }
 }

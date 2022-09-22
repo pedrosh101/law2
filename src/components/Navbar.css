@@ -1,16 +1,13 @@
 .navbar {
     background-color: var(--clr1);
-    padding: .6em;
 }
 
 .navbarContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-
-.NavbarItems {
     position: relative;
 }
+
 
 .navMenu {
     display: flex;
@@ -18,13 +15,12 @@
     height: 90vh;
     position: absolute;
     list-style: none;
-    top: 6em;
+    top: 4.8em;
     right: -100%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 999 !important;
 }
-
 
 .navbar ul{
     left: 0;
@@ -94,11 +90,11 @@
     color: var(--clr1);
 }
 
-.blueBlock{
-    background-color: var(--clr2);
-    height: 4.8em;
-    bottom: 0;
+.endereco p{
+    margin: 12px 0;
 }
+
+
 
 /* Social Icons */
 .social-icon-link {
@@ -107,7 +103,7 @@
 }
 
 .social-icons{
-    margin-top: 3em;
+    margin-top: 1em;
 
 }
 
@@ -116,11 +112,17 @@
 }
 
 @media screen and (max-width: 960px) {
+    .navMenu{
+        display: flex;
+        flex-direction: column;
+    }
+
     .navLinks {
         padding: 2rem;
         width: 100%;
         display: table;
         font-size: 1.3rem;
+        text-align: center;
     }
 
     .navLinks:hover {
@@ -148,6 +150,10 @@
         background: #fff;
         color: #242424;
         transition: 250ms;
+    }
+
+    .endereco h1{
+        font-size: 2.1em;
     }
 
 }

@@ -11,7 +11,6 @@ gsap.registerPlugin(ScrollTrigger);
 function Hero() {
   const imgRef = useRef();
 
-
   useEffect(() => {
     const q = gsap.utils.selector(imgRef);
     q(".imgMove").forEach((imgframe) => {
@@ -21,7 +20,7 @@ function Hero() {
         {
           opacity: 1,
           duration: 3,
-          scrollTrigger: { trigger: imgframe, start: 'top 85%' },
+          scrollTrigger: { trigger: imgframe, start: "top 85%" },
         }
       );
     });
@@ -29,19 +28,23 @@ function Hero() {
 
   useEffect(() => {
     const q = gsap.utils.selector(imgRef);
-    q(".textBtn").forEach((txt) => {
-      gsap.to(
-        txt,
-        {
-          opacity: 1,
-          duration: 3,
-          scrollTrigger: { trigger: txt, scrub: 0.8, start: 'top 40%', end: "+=400", pin: true, pinSpacing: false  },
-        }
-      );
+    const mm = gsap.matchMedia();
+
+    mm.add("(min-width: 800px)", () => {
+      q(".textBtn").forEach((txt) => {
+        gsap.to(txt, {
+          scrollTrigger: {
+            trigger: txt,
+            scrub: 0.8,
+            start: "top 40%",
+            end: "+=400",
+            pin: true,
+            pinSpacing: false,
+          },
+        });
+      });
     });
   }, []);
-
-
 
   return (
     <>
@@ -60,7 +63,6 @@ function Hero() {
                 orientação jurídica para a defesa dos direitos e interesses dos
                 clientes, nos mais variados ramos do direito e dos negócios.
               </p>
-              <button>Fale Conosco</button>
             </div>
           </div>
         </div>

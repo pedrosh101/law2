@@ -46,6 +46,10 @@
 
     .row{
         line-height: 2em;
+    }
 
+    .lastLine{
+        flex-direction: column;
+        padding: 1em;
     }
 }

@@ -28,15 +28,10 @@
     text-align: end;
 }
 
-.imgText img {
+.imgMove {
     max-height: 42em;
-    left: 0;
 }
 
-.imgText2 img {
-    max-height: 42em;
-    right: 0;
-}
 
 .workContainer {
     background-color: var(--clr1);
@@ -72,37 +67,45 @@
 
 @media all and (max-width: 50em){
     .aboutContainer {
-        padding: 4em 2em;
+        padding: 2em;
+        gap: 2em;
     }
 
     .imgText, .imgText2{
+        padding: 0;
+        gap: 18px;
+        display: flex;
         flex-direction: column;
-        padding: 2em;
-        gap: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .imgText2{
+        flex-direction: column-reverse;
+        text-align: start;
+    }
+
+    .imgMove{
+        height: 23rem;
+        object-fit: cover;
     }
 
     .textBtn{
-        padding: 2em;
+        padding: 0;
     }
 
-    .imgText img {
-        max-height: 19em;
-        padding: 12px;
-    }
-    
-    .imgText2 img {
-        max-height: 19em;
-    }
 
     .bannerContainer {
-        padding: 2em;
+        padding: 3.5em 0em;
+
     }
 
-    .bannerText h1, .bannerText p{
-        max-width: 80%;
-    }
-    
     .bannerText p{
-        margin-top: 15px;
+        margin-top: 25px;
+        max-width: 90%;
+        background-color: rgba(129, 146, 168, 0.8);
+        color: var(--clr1);
+        padding: 15px;
     }
 }
