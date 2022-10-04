@@ -153,6 +153,15 @@
         transition: 250ms;
     }
 
+    .navbarLogo img {
+        width: 11em;
+    }
+
+    .menuIcon {
+        transform: translate(-100%, 70%);
+        font-size: 1.9rem;
+    }
+
     .endereco h1{
         font-size: 2.1em;
     }
