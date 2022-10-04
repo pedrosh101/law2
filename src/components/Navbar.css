@@ -116,6 +116,7 @@
     .navMenu{
         display: flex;
         flex-direction: column;
+        top: 5em;
     }
 
     .navLinks {
