@@ -4,7 +4,11 @@
 
 .hero h1 {
     font-weight: 800;
-    font-size: 2.3em;
+    font-size: 2.6em;
+}
+
+.hero p{
+    font-size: 1.4em;
 }
 
 .aboutContainer {
@@ -42,7 +46,7 @@
     background-image: url(/public/img/serra.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 40vh;
+    min-height: 45vh;
     filter: grayscale(30%);
     display: flex;
 }

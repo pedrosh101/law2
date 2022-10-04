@@ -87,6 +87,16 @@ function Navbar() {
                     >
                       <i className="fab fa-whatsapp" />
                     </a>
+
+                    <a
+                      href="mailto:pedro.sh101@gmail.com"
+                      className="social-icon-link mail"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="Mail"
+                    >
+                      <i className="fa fa-envelope"></i>
+                    </a>
                   </div>
                 </div>
               </div>

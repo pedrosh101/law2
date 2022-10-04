@@ -17,7 +17,7 @@
 }
 
 .cardsTitle h5{
-    font-size: 1em;
+    font-size: 1.3em;
     font-family: AVN;
 }
 
@@ -35,13 +35,13 @@
 
 .cardTitle{
     font-family: NHG;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     margin-bottom: 12px;
 }
 
 .cardTxt{
     font-family: AVN;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
 }
 
 .card:hover{
