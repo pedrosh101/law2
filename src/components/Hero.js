@@ -37,7 +37,7 @@ function Hero() {
             trigger: txt,
             scrub: 0.8,
             start: "top 40%",
-            end: "+=300",
+            end: "+=250",
             pin: true,
             pinSpacing: false,
           },
