@@ -37,7 +37,7 @@ function Hero() {
             trigger: txt,
             scrub: 0.8,
             start: "top 40%",
-            end: "+=400",
+            end: "+=300",
             pin: true,
             pinSpacing: false,
           },
@@ -54,6 +54,7 @@ function Hero() {
           <h1>Sobre a Template Advogados</h1>
           <div className="imgText">
             <img src="./img/office.jpg" alt="office" className="imgMove"></img>
+
             <div className="textBtn">
               <p>
                 Com sede e uma filial em Guaratinguetá (SP), a banca Template

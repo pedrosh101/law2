@@ -8,7 +8,7 @@
 }
 
 .hero p{
-    font-size: 1.4em;
+    font-size: clamp(1.2rem, .6vw, 3rem);
 }
 
 .aboutContainer {
@@ -18,6 +18,8 @@
     justify-content: center;
     align-items: center;
 }
+
+
 
 .imgText {
     padding: 4em 6em 4em 0;
@@ -32,8 +34,10 @@
     text-align: end;
 }
 
+
+
 .imgMove {
-    max-height: 42em;
+    max-height: 42vw;
 }
 
 
@@ -57,17 +61,15 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
 }
 
 .bannerText h1, .bannerText p{
+    padding: .7em;
     max-width: 60%;
     color: var(--clr1);
 }
 
-.bannerText p{
-    margin-top: 35px;
-}
+
 
 @media all and (max-width: 50em){
     .aboutContainer {
