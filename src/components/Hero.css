@@ -8,7 +8,7 @@
 }
 
 .hero p{
-    font-size: clamp(1.2rem, .6vw, 3rem);
+    font-size: 1.4em;
 }
 
 .aboutContainer {
@@ -68,7 +68,7 @@
 
 @media all and (max-width: 50em){
     .aboutContainer {
-        padding: 2em;
+        padding: 2.2em;
         gap: 2em;
     }
 
@@ -78,7 +78,7 @@
 
     .imgText, .imgText2{
         padding: 0;
-        gap: 18px;
+        gap: 2em;
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -35,9 +35,8 @@ function Hero() {
         gsap.to(txt, {
           scrollTrigger: {
             trigger: txt,
-            scrub: 0.8,
             start: "top 40%",
-            end: "+=250",
+            end: "bottom 80%",
             pin: true,
             pinSpacing: false,
           },
